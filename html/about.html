@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <link href="/styles.css" rel="stylesheet">
+        <title>My Webpage</title>
+        <script>
+            $(function(){
+                $("#header").load("/header.html");
+            })
+        </script>
+    </head>
+    <body>
+        <h2 class = "title">About Me</h2>
+        <div id="header"></div>
+        <div class = "text-center">
+            <img src = '/crycat.png' alt = 'crying cat' class = 'img-fluid'>
+        </div>
+        <h2 class="text-center">
+            My Git
+        </h2>
+        <p class = "text-center">
+            <a id = "myGit" class = "text-center" href="https://github.com/bobeta-c">bobeta-c</a>
+        </p>
+        <section class = "text-center">
+            <h4>Name</h4>
+            <p>Asher Christian</p>
+            <h4>Profession</h4>
+            <p><b>swaggin out</b>
+            <h4>Specialty</h4>
+            <p>None <i>ATM</i></p>
+        </section>
+
+    </body>
+</html>

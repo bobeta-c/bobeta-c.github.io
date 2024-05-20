@@ -1,0 +1,41 @@
+ul {
+    background: #FFF8DC;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+li{
+    size:larger;
+    float: left;
+}
+li a{
+    text-align: center;
+    padding: 16px;
+    color: gray;
+    font-size: larger;
+}
+li a:hover {
+    background-color: #E5DFC6;
+}
+.title {
+    background-color: #C6E5DF;
+    color: #4F5B59;
+}
+pre {
+    background-color: #dce5c6;
+    color: green;
+}
+body{
+    background-color: #e5d0c6;
+}
+#myGit{
+    color:red;
+}
+.rounded{
+    border-radius: 8px;
+}
+.media{
+    padding: 30px;
+}
